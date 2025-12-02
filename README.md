@@ -66,6 +66,39 @@ Understand resource management and the `with` statement.
 - Reentrant locks
 - ExitStack for dynamic management
 
+### 4. [Lambda Functions](./lambda_functions/)
+
+Learn Python's concise anonymous functions.
+
+**Topics covered:**
+- Basic lambda syntax
+- Lambda with map(), filter(), sorted()
+- Custom sorting with lambdas
+- Dictionary operations
+- Lambda vs regular functions
+
+### 5. [List Comprehensions](./list_comprehensions/)
+
+Master Python's elegant way to create lists.
+
+**Topics covered:**
+- Basic list comprehension syntax
+- Filtering with conditions
+- If-else expressions
+- Nested comprehensions
+- String processing
+
+### 6. [String Formatting](./string_formatting/)
+
+Format strings like a pro with f-strings and more.
+
+**Topics covered:**
+- F-strings (formatted string literals)
+- Number formatting
+- Text alignment and padding
+- The format() method
+- Practical formatting patterns
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -98,6 +131,15 @@ python generators/generators.py
 
 # Run context managers examples
 python context_managers/context_managers.py
+
+# Run lambda functions examples
+python lambda_functions/lambda_functions.py
+
+# Run list comprehensions examples
+python list_comprehensions/list_comprehensions.py
+
+# Run string formatting examples
+python string_formatting/string_formatting.py
 ```
 
 For learning, we recommend:
