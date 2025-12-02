@@ -14,7 +14,7 @@ This module demonstrates **Python string formatting**, essential for creating re
 
 ## Prerequisites
 
-- Python 3.7 or higher
+- Python 3.8 or higher (for f-string debugging syntax)
 - Basic understanding of strings and variables
 
 ## What are F-Strings?

@@ -8,8 +8,6 @@ Author: Simply-Python Contributors
 License: MIT
 """
 
-from typing import List, Callable
-
 
 # =============================================================================
 # SECTION 1: Basic Lambda Function

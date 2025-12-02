@@ -9,8 +9,6 @@ Author: Simply-Python Contributors
 License: MIT
 """
 
-from typing import List
-
 
 # =============================================================================
 # SECTION 1: Basic List Comprehension
