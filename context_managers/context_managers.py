@@ -441,7 +441,9 @@ def main():
     print("=" * 60)
     
     # Create a temporary file for demonstration
-    temp_file = "/tmp/context_manager_demo.txt"
+    # Using tempfile for cross-platform compatibility
+    import tempfile
+    temp_file = os.path.join(tempfile.gettempdir(), "context_manager_demo.txt")
     
     # 1. Basic Context Manager
     print("\n--- 1. Basic FileManager Context Manager ---")

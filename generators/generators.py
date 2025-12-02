@@ -392,7 +392,11 @@ def process_csv_lazily(lines: Iterator[str]) -> Generator[dict, None, None]:
         Dictionary representing each row
     """
     # Get header from first line
-    header = next(lines).split(',')
+    # Handle empty iterator case
+    try:
+        header = next(lines).split(',')
+    except StopIteration:
+        return  # Empty iterator, nothing to yield
     
     # Process remaining lines
     for line in lines:
